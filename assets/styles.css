@@ -1,0 +1,25 @@
+body {
+  text-align: justify;
+}
+
+h1 {
+  text-align: center;
+}
+
+.mermaid-large {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mermaid {
+  width: 100% !important;
+}
+
+#TOC ul {
+  display: block !important;
+  visibility: visible !important;
+}
+
+#TOC li {
+  display: list-item !important;
+}
