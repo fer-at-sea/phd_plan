@@ -61,7 +61,7 @@ These conservation goals rely heavily on our ability to robustly monitor biodive
 The main objective of this research project is to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones. To achieve this, we will explore the potential of different RS platforms across two scales. First, underwater and aerial drones will be used to produce high-resolution maps, enabling the study of habitat spatial configuration, fragmentation and conservation status at fine scale. Second, satellite imagery will be employed to generate broad scale maps to asses habitat distribution, as well as to study temporal dynamics in habitat extent.
 
 
-![Interaction of the different observing scales.](assets/img/img0.JPG){width=70%}
+![Interaction of the different observing scales.](assets/img/scales.JPG){width=70%}
 
 
 
