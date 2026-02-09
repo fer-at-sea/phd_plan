@@ -3,9 +3,6 @@ title: "Remote sensing of marine vegetation for monitoring and managing coastal 
 author: "Fernando García-González"
 bibliography: assets/references.bib
 format:
-  pdf:
-    toc: true
-    toc-depth: 3
   html:
     css: assets/styles.css
     toc: true
@@ -15,6 +12,9 @@ format:
         icon: file-code
         href: https://github.com/fer-at-sea
   docx:
+    toc: true
+    toc-depth: 3
+  pdf:
     toc: true
     toc-depth: 3
 
