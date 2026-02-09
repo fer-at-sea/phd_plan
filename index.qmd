@@ -3,6 +3,9 @@ title: "Remote sensing of marine vegetation for monitoring and managing coastal 
 author: "Fernando García-González"
 bibliography: assets/references.bib
 format:
+  pdf:
+    toc: true
+    toc-depth: 3
   html:
     css: assets/styles.css
     toc: true
@@ -14,9 +17,7 @@ format:
   docx:
     toc: true
     toc-depth: 3
-  pdf:
-    toc: true
-    toc-depth: 3
+
 ---
 
 ::: {.content-visible when-format="pdf"}
@@ -194,7 +195,7 @@ gantt
 #### 1. Training Courses
 - Attend workshops and training to strengthen technical expertise in remote sensing, geospatial data analysis, and deep learning, while also developing skills in coding, data management, FAIR principles, and reproducible research practices.
 - Potential courses are:
-    - Experimental design and sampling, Girona University (1 ECTS)  
+    - Experimental design and sampling, Girona University (1 ECTS)
     - [IOCCG Summer Lecture Series, Frontiers in Ocean Optics and Ocean Colour Science](https://ioccg.org/what-we-do/training-and-education/ioccg-sls/)
 
 #### 2. Research Stays
@@ -207,15 +208,15 @@ gantt
 #### 4. Participation as speaker
 - Participation in at least one national or international conference per year is planned to present results, engage with the scientific community, and receive feedback. 
 - Potential congresses are:  
-    - [21st Congress of the Spanish Remote Sensing Association](https://aetcc2026.es)  
-    - [Geopython](https://www.python.org/events/python-events/2147/)  
-    - [Jornades SIG Lliure UdG](https://www.jornadassiglibre.org/ca/) 
-    - [FOSS4G (Free and Open Source Software for Geospatial)](https://www.osgeo.org/initiatives/foss4g/)   
+    - [21st Congress of the Spanish Remote Sensing Association](https://aetcc2026.es)
+    - [Geopython](https://www.python.org/events/python-events/2147/)
+    - [Jornades SIG Lliure UdG](https://www.jornadassiglibre.org/ca/)
+    - [FOSS4G (Free and Open Source Software for Geospatial)](https://www.osgeo.org/initiatives/foss4g/)
 
 #### 5. Open Science and Citizen Science Activities
 - Ensure all generated data and code follow **FAIR principles**  
 - Participation in public outreach:  
-  - Science week, Oceanographic Center of Gijón (2026, 2027, 2028)  
+  - Science week, Oceanographic Center of Gijón (2026, 2027, 2028)
 
 #### 6. Scientific Publications
 - Target publications during PhD:  
@@ -224,13 +225,6 @@ gantt
   - **Year 3:** At least 1 research paper on the use of Sentinel-2 to monitor underwater vegetation in marine protected areas.
 - Consider submitting the thesis as a **compilation of publications**  
 
-::: {.content-visible when-format="pdf"}
-{{< pagebreak >}}
-:::
-
-::: {.content-visible when-format="docx"}
-{{< pagebreak >}}
-:::
 
 #### 7. Training Planning
 | Year | Activities |
