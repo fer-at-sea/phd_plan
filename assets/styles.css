@@ -15,11 +15,11 @@ h1 {
   width: 100% !important;
 }
 
-#TOC ul {
+#toc ul {
   display: block !important;
   visibility: visible !important;
 }
 
-#TOC li {
+#toc li {
   display: list-item !important;
 }

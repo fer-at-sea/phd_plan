@@ -1,38 +1,28 @@
 ---
-title: "PhD research plan"
-author: "Fernando García-González"
+title: "Remote sensing of marine vegetation for monitoring and managing coastal ecosystems."
+author: "Fer"
 bibliography: assets/references.bib
 format:
   html:
     css: assets/styles.css
     toc: true
+    toc-depth: 3
+    toc-expand: 3
+    code-links:
+      - text: Github
+        icon: file-code
+        href: https://github.com/fer-at-sea
+  pdf:
+    toc: true
+    toc-depth: 2
+    toc-expand: 3
+  docx:
+    toc: true
     toc-depth: 2
     toc-expand: 3
 ---
 
-{{< pagebreak >}}
-
-# Remote sensing of marine vegetation: monitoring approaches for coastal ecosystem management
-
-::: {.text-center}
-![](assets/img/logo_GEAM.png){width=80px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](assets/img/logo_IEO.png){width=80px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](assets/img/logo_CEAB.png){width=110px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](assets/img/logo_CSIC.png){width=100px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;![](assets/img/logo_UdG.png){width=100px}
-:::
-
-&nbsp; 
-&nbsp;
-&nbsp;
-&nbsp;
-&nbsp;
-
-::: {.content-visible when-format="pdf"}
-For improved readability please refer to the [online version of this document](https://fer-at-sea.github.io/phd_research_plan/).
-:::
-
-::: {.content-visible when-format="docx"}
-For improved readability please refer to the [online version of this document](https://fer-at-sea.github.io/phd_research_plan/).
-:::
-
----
+## Research plan
 
 **PhD candidate**  
 Fernando García-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-4042-6789) [![](assets/img/img.png)](mailto:f.garcia@ieo.csic.es) [![](assets/img/img.png)](mailto:fergrc@hotmail.com) ([Seagrass Ecology Group, IEO-CSIC](https://coastal-ai.github.io/GEAM_GEODATABASE/)) 
@@ -45,20 +35,46 @@ Pablo González-González [![ORCID](https://orcid.org/sites/default/files/images
 **Phd supervisor**  
 Jana Verdura [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-0662-1206) [![](assets/img/img.png)](mailto:jana.verdura@udg.edu) ([GR MAR, Girona University](https://iea.udg.edu/grmar2022/))  
 
+&nbsp; 
+&nbsp;
+&nbsp;
+
+::: {.text-center}
+![](assets/img/logo_GEAM.png){width=80px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/logo_IEO.png){width=80px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/logo_CEAB.png){width=110px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/logo_CSIC.png){width=100px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/logo_uniovi.png){width=100px}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+![](assets/img/logo_UdG.png){width=100px}
+:::
+&nbsp;
+&nbsp;
+
+::: {.content-visible when-format="pdf"}
+For improved readability please refer to the [online version of this document](https://fer-at-sea.github.io/phd_research_plan/).
+:::
+
+::: {.content-visible when-format="docx"}
+For improved readability please refer to the [online version of this document](https://fer-at-sea.github.io/phd_research_plan/).
+:::
 
 
 
 
 
-## Abstract
+
+
+### Abstract
 
 Ocean environmental conditions are changing at unprecedented rates causing profound ecosystem transformations. These changes are especially important along the coast where intensifying human activity tends to concentrate. As a result, marine vegetated ecosystems are severely degrading and substantial areas of both seagrass meadows and macroalgal forests have already been lost. Since these are crucial foundation species fostering marine biodiversity and ecosystem functioning, important services to society are dissipating.
 
-The challenge of reconciling development and conservation must be urgently addressed at the global scale. In this context, the European Union has implemented an ambitious [Integrated Maritime Policy](https://research-and-innovation.ec.europa.eu/research-area/environment/oceans-and-seas/integrated-maritime-policy_en), based on two main pillars: (i) the Marine Strategy Framework Directive (MSFD, 2008/56/EC), aimed at managing anthropogenic activities and achieving Good Environmental Status, and (ii) the Maritime Spatial Planning Framework Directive (MSPFD, 2014/89/EU). Within this ecosystem-based approach, the EU has also adopted the [European Biodiversity Strategy](https://environment.ec.europa.eu/strategy/biodiversity-strategy-2030_en), aligned with the objectives of the Convention on Biological Diversity, which focus on improving biodiversity and ecosystem services, maintaining ecological integrity and connectivity, and strengthening genetic diversity. In addition, other European directives and international agreements—such as the Habitats Directive (92/43/EEC), the Barcelona Convention, and OSPAR—aim to protect coastal marine ecosystems through habitat conservation, biodiversity protection, and the reduction of anthropogenic pressures.
+The challenge of reconciling development and conservation must be urgently addressed at the global scale. In this context, the European Union (EU) has implemented an ambitious [Integrated Maritime Policy](https://research-and-innovation.ec.europa.eu/research-area/environment/oceans-and-seas/integrated-maritime-policy_en), based on two main pillars: (i) the Marine Strategy Framework Directive (MSFD, 2008/56/EC), aimed at managing anthropogenic activities and achieving Good Environmental Status, and (ii) the Maritime Spatial Planning Framework Directive (MSPFD, 2014/89/EU). Within this ecosystem-based approach, the EU has also adopted the [European Biodiversity Strategy](https://environment.ec.europa.eu/strategy/biodiversity-strategy-2030_en), aligned with the objectives of the Convention on Biological Diversity, which focus on improving biodiversity and ecosystem services, maintaining ecological integrity and connectivity, and strengthening genetic diversity. In addition, other European directives and international agreements—such as the Habitats Directive (92/43/EEC), the Barcelona Convention, and OSPAR—aim to protect coastal marine ecosystems through habitat conservation, biodiversity protection, and the reduction of anthropogenic pressures. 
 
-These conservation goals rely heavily on our ability to robustly monitor biodiversity at broad spatial and temporal scales to guide conservation efforts. While traditional marine ecology monitoring methods based on SCUBA diving provide accurate measures, they have important limitations in their spatial scale, thus failing to capture the relevant processes and impacts, which tend to happen at larger scales. In this context, new cost-effective tools that expand the scope of in-situ observations can be very relevant. Remote Sensing (RS) is already used to this end in terrestrial ecology but it is still not well implemented in the marine realm.
+Achieving these conservation goals requires robust, scientifically grounded methodologies for assessing the status of coastal ecosystems to guide decision making. A key component of these assessments is the ability to monitor habitat distribution periodically across multiple spatial scales, evaluating aspects such as range, extent, and the degree of fragmentation or connectivity. In this context, there is a clear trade-off between scale and accuracy. Traditional in situ distribution monitoring techniques provide high precision but are limited to small spatial scales. In contrast, the recent growth of remote sensing and geospatial data analysis offers considerable potential to address habitat distribution at broader scales. 
 
-The main objective of this research project is to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones. To achieve this, we will explore the potential of different RS platforms across two scales. First, underwater and aerial drones will be used to produce high-resolution maps, enabling the study of habitat spatial configuration, fragmentation and conservation status at fine scale. Second, satellite imagery will be employed to generate broad scale maps to asses habitat distribution, as well as to study temporal dynamics in habitat extent.
+The fundamental challenge lies in ensuring that cartographic products derived from remote sensors support solid scientific inference [@mcroberts_2011] and align with the transdisciplinary knowledge required for effective environmental decision-making [@kilminster_2015]. Achieving this requires a balance between in situ and ex situ information, and between technical and ecological knowledge: two sine qua non conditions for remote sensing to contribute effectively to conservation status assessment and coastal management.
+
+The main objective of this research project is to **leverage strong ecological expertise and long term in situ datasets to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones**. To achieve this, the potential of different RS platforms will be explored across **two spatial scales**. At the **fine scale**, underwater and aerial drones will be used to produce high-resolution maps, enabling the study of habitat spatial configuration, fragmentation and conservation status. At the **broad scale**, satellite imagery will be employed to generate maps of habitat distribution and to investigate temporal dynamics in habitat extent.
 
 
 ![Interaction of the different observing scales.](assets/img/scales.JPG){width=70%}
@@ -67,8 +83,9 @@ The main objective of this research project is to develop and test novel RS and 
 
 
 
-## Background
+### Background
 RS relies on the propagation of signals, optical or acoustic, between the target and the sensor enabling large-scale and long-term data collection. Instruments on satellites, aircrafts and submarines provide high-resolution imagery and measurements critical for monitoring environmental changes. These technologies have evolved from early aerial photography and low-resolution satellite sensors to the modern high-resolution, multispectral, and hyperspectral platforms allowing systematic data collection over extended areas and time periods and providing the foundation for Earth Observation.
+
 
 Optical RS for coastal habitat mapping and monitoring is a fast evolving field with many advancements in the recent years, both in the **intertidal** [@calleja_2017; @zoffoli_sentinel-2_2020; @zoffoli_decadal_2021; @zoffoli_remote_2022; @davies_multi_2023; @davies_sentinel_2024; @davies_intertidal_2024; @oiry_discriminating_2024; @davies_initial_2026] and **subtidal** zones [@fornes_mapping_2006; @brando_physics_2009; @traganos_mapping_2018; @poursanidis_use_2019; @traganos_spatially_2022]. I personally developed my Master's thesis [Remote Sensing Applications in marine protected areas:
 using Sentinel-2 for satellite bathymetry estimation and benthic habitat mapping](https://dehesa.unex.es/entities/publication/a5f999ee-1419-41e2-ab14-e992a742bacd), which, in 2021, was a pioneer work using Sentinel-2 in the Balearic Archipelago.
@@ -92,7 +109,7 @@ Monitoring **intertidal vegetation** with RS also presents specific challenges. 
     <source src="assets/img/video1.mov" type="video/quicktime">
     Your browser does not support the video tag.
   </video>
-  <div><em>*3D model of a cuvette. France, 2022. More models available [here](https://sketchfab.com/fer-at-sea/models)*</em></div>
+  <div>3D model of a cuvette. France, 2022. More models available <a href="https://sketchfab.com/fer-at-sea/models">here</a></div>
 </div>
 ```
 :::
@@ -100,44 +117,42 @@ Monitoring **intertidal vegetation** with RS also presents specific challenges. 
 
 
 
-## Objectives
 
-### Main phd objective:
- Develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the **intertidal** and **subtidal** coastal zones.
+### Objectives
 
-### Specific objective 1: small scale
+#### Main phd objective:
+ **Leverage strong ecological expertise and long term in situ datasets to develop and test novel RS and geospatial methodologies for mapping and monitoring marine vegetated ecosystems in the intertidal and subtidal coastal zones.**
+
+#### Specific objective 1: fine scale subtidal
  Explore the potential of integrating underwater photogrammetry, **autonomous underwater vehicles**, and advanced image analysis to overcome traditional limitations in *P. oceanica* deep-limit monitoring. Generating ultra-high resolution maps of the deep limits will allow for higher spatial precision, enabling the incorporation of landscape analysis to asses the structure and spatial configuration of the meadow limits. These seascape metrics offer a novel and promising perspective for assessing the condition of *P. oceanica* meadows at their deep limits, complementing traditional indicators. 
 
 
-### Specific objective 2: small scale
+#### Specific objective 2: fine scale subtidal
 Develop a methodology, based on **aerial drones**, to asses underwater barren extensions caused by the overgrazing of herbivorous sea urchins *P. lividus* and *A. lixula*. Analyze temporal dynamics of barren expansion and contraction in relation to sea urchin harvesting.
 
 
-### Specific objective 3: broad scale
-Use **Sentinel-2** to design a scalable and reproducible Python processing workflow to map underwater vegetation in Special Areas of Conservation (SAC) as defined by the Habitat Directive. Assess the spectral separability of different bottom types across different bioregions and develop a robust accuracy assessment methodology that can be applied to these RS-derived cartographies and other mapping products.
+#### Specific objective 3: broad scale subtidal
+Use **Sentinel-2** to design a scalable and reproducible Python processing workflow to map underwater vegetation in Special Areas of Conservation (SAC) as defined by the Habitat Directive. Assess the spectral separability of different species and bottom types across different bioregions and develop a robust accuracy assessment methodology that can be applied to these RS-derived cartographies and other mapping products. Temporal trends in habitat distribution will also be analyzed for dynamic seagrass species [@kilminster_2015].
 
-### Specific objective 4: broad scale  
-Use **Sentinel-2** to analyze the temporal variability of *C. nodosa* subtidal meadows in several regions of the Mediterranean.
-
-### Specific objective 5: broad scale
-Use **Sentinel-2** to study the temporal variability of *N. noltei* intertidal meadows in the north coast of Spain.
+#### Specific objective 4: broad scale intertidal
+Use **Sentinel-2** to design a scalable and reproducible Python processing workflow to study the temporal variability of *N. noltei* intertidal meadows in the north coast of Spain.
 
 
-## Methodology
-The methodological framework is based on the integration of multi-platform remote sensing data acquired at different spatial and temporal scales. Ultra-high-resolution imagery obtained from autonomous underwater vehicles (AUVs) and aerial drones is first processed using photogrammetric workflows to generate georeferenced orthomosaics and three-dimensional products of the seabed and intertidal zones. These datasets provide detailed information on habitat structure and are used both for fine-scale mapping and as reference data for model calibration and validation. At broader scales, satellite imagery is processed through standardized pre-processing steps, including atmospheric and water-column corrections. Spectral, textural, and contextual features are then extracted from all platforms and harmonized within a common geospatial framework. Habitat mapping is performed using a combination of empirical classification approaches, physics-based models, and machine-learning techniques, producing probabilistic raster outputs that represent class membership or habitat probability. Finally, these probabilistic products are thresholded and post-processed to generate categorical habitat maps, whose accuracy and uncertainty are assessed using **independent field observations** and **high-resolution reference data**.
+### Methodology
+The methodological framework is based on the integration of **multi-platform remote sensing** data acquired at different spatial and temporal scales **with high quality field data**. Ultra-high-resolution imagery obtained from autonomous underwater vehicles (AUVs) and aerial drones is first processed using photogrammetric workflows to generate georeferenced orthomosaics and three-dimensional products of the seabed and intertidal zones. These datasets provide detailed information on habitat structure and are used both for fine-scale mapping and as reference data for model calibration and validation. At broader scales, satellite imagery is processed through standardized pre-processing steps, including atmospheric and water-column corrections. Spectral, textural, and contextual features are then extracted from all platforms and harmonized within a common geospatial framework. Habitat mapping is performed using a combination of empirical classification approaches, physics-based models, and machine-learning techniques, producing probabilistic raster outputs that represent class membership or habitat probability. Finally, these probabilistic products are thresholded and post-processed to generate categorical habitat maps, whose accuracy and uncertainty are assessed using **independent field observations** and **high-resolution reference data**.
 
 :::{.text-center}
 ![General workflow illustrating the transformation of imagery and ancillary variables within a datacube into probabilistic rasters and final categorical maps](assets/img/img3.png){width=90%}
 
 :::
 
-## Data management plan
-### General considerations
-This project will leverage a unique, long-term dataset of seagrass and marine vegetation observations collected over the past 20 years by the **Seagrass Ecology Group (IEO-CSIC)** and **CEAB-CSIC**. These in situ observations will serve to calibrate, validate, and interpret multi-temporal remote sensing products.
+### Data management plan
+#### General considerations
+This project will leverage a unique, long-term dataset of seagrass and other marine vegetation observations collected over the past 20 years by the **Seagrass Ecology Group (IEO-CSIC)** and **CEAB-CSIC**. These in situ observations will serve to calibrate, validate, and interpret multi-temporal remote sensing products.
 
 The research will integrate heterogeneous datasets including (i) long-term field observations (e.g. presence/absence, cover, depth limits, structural descriptors), (ii) ultra-high-resolution imagery derived from AUV and aerial drone surveys, and (iii) satellite-based remote sensing products. Newly generated datasets (orthomosaics, derived indices, probabilistic rasters, categorical habitat maps, and accuracy assessment outputs) will be produced following standardized and reproducible processing workflows, generating high-value datasets for coastal ecosystem monitoring, trend analysis, and future conservation efforts.
 
-### FAIR Principles
+#### FAIR Principles
 
 **Findable:** Datasets will have persistent identifiers (DOIs) and standardized metadata (Darwin Core, ISO 19115/INSPIRE), including spatial/temporal coverage, provenance, and uncertainty.
 
@@ -147,10 +162,9 @@ The research will integrate heterogeneous datasets including (i) long-term field
 
 **Reusable:** Documentation will include data dictionaries, methodology, and quality-control procedures. Open licenses (CC BY/CC BY-NC) will facilitate reuse for monitoring, validation, and conservation planning.
 
-## Timeline
+### Timeline
 Having worked as a geospatial data analyst and research assistant for the past five years has paved the way for this PhD. Part of the proposed work will therefore build on and bring to completion ongoing and previously initiated studies. As a result, the timeline of the PhD is closely aligned with the continuation of my current work and research activities.
 
-<div class="mermaid-large">
 ```{mermaid}
 gantt
     dateFormat  YYYY-MM-DD
@@ -160,60 +174,60 @@ gantt
     Methodology development     :b2, 2026-03-01, 14M
     Remote sensing analysis     :b1, 2026-03-01, 18M
     
-
     section Year 2
     Field campaigns & sampling  :a2, 2027-01-01, 16M
     Manuscript drafting         :c2, 2027-09-01, 12M
     
-
     section Year 3
     Thesis writing              :d1, 2028-04-01, 8M
     Submission                  :d2, 2028-08-01, 6M
-    Defense                     :d2, 2028-10-01, 6M
-
-
+    Defense                     :d3, 2028-10-01, 6M
 ```
-</div>
 
 ## Researcher development plan
 
-### 1. Training Courses
-- Workshops on advanced remote sensing, geospatial data analysis, and deep learning applications will be attended to enhance technical skills.
-- Training in coding, data management, FAIR data principles, and reproducible research practices.
+#### 1. Training Courses
+- Attend workshops and training to strengthen technical expertise in remote sensing, geospatial data analysis, and deep learning, while also developing skills in coding, data management, FAIR principles, and reproducible research practices.
 - Potential courses are:
     - Experimental design and sampling, Girona University (1 ECTS)  
     - [IOCCG Summer Lecture Series, Frontiers in Ocean Optics and Ocean Colour Science](https://ioccg.org/what-we-do/training-and-education/ioccg-sls/)
 
-### 2. Research Stays
+#### 2. Research Stays
 - Erasmus Mobility: A 6-month research stay at an international partner institution is planned during the first year, ideally coinciding with methodology development and remote sensing analysis. This will allow exposure to complementary methodologies, strengthen collaborations, and expand the research network.
 
-### 3. Participation as attendee:  
+#### 3. Participation as attendee:  
 - Monthly group meetings and internal seminars.
 - Coordination meetings with public institutions.  
 
-### 4. Participation as speaker
+#### 4. Participation as speaker
 - Participation in at least one national or international conference per year is planned to present results, engage with the scientific community, and receive feedback. 
 - Potential congresses are:  
     - [21st Congress of the Spanish Remote Sensing Association](https://aetcc2026.es)  
     - [Geopython](https://www.python.org/events/python-events/2147/)  
     - [Jornades SIG Lliure UdG](https://www.jornadassiglibre.org/ca/) 
-    - [FOSS4G (Free and Open Source Software for Geospatial)](https://2026.europe.foss4g.org)   
+    - [FOSS4G (Free and Open Source Software for Geospatial)](https://www.osgeo.org/initiatives/foss4g/)   
 
-### 5. Open Science and Citizen Science Activities
+#### 5. Open Science and Citizen Science Activities
 - Ensure all generated data and code follow **FAIR principles**  
 - Participation in public outreach:  
   - Science week, Oceanographic Center of Gijón (2026, 2027, 2028)  
 
-### 6. Scientific Publications
+#### 6. Scientific Publications
 - Target publications during PhD:  
   - **Year 1:** At least 1 research paper on the monitoring of *P. oceanica* deep limit using Autonomous Underwater Vehicles.
   - **Year 2:** At least 1 research paper on the monitoring of underwater barrens using aerial drones.
-  - **Year 3:** At least 1 research paper on the use of Sentinel-2 to monitor underwater vegetation un marine protected areas.
+  - **Year 3:** At least 1 research paper on the use of Sentinel-2 to monitor underwater vegetation in marine protected areas.
 - Consider submitting the thesis as a **compilation of publications**  
 
+::: {.content-visible when-format="pdf"}
 {{< pagebreak >}}
+:::
 
-### 7. Training Planning
+::: {.content-visible when-format="docx"}
+{{< pagebreak >}}
+:::
+
+#### 7. Training Planning
 | Year | Activities |
 |------|------------|
 | 2026 | Transversal & specific courses, literature review, remote sensing analyses, Erasmus stay (6 months), attendance at seminars and workshops |
