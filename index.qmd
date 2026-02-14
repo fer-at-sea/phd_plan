@@ -35,8 +35,8 @@ Fernando García-González [![ORCID](https://orcid.org/sites/default/files/image
   
 **PhD directors**   
 Jaime Bernardeau Esteller [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9290-0609) [![](assets/img/img.png)](mailto:jaime.bernardeau@ieo.csic.es) ([Seagrass Ecology Group, IEO-CSIC](https://coastal-ai.github.io/GEAM_GEODATABASE/))     
-Jordi Boada (CEAB-CSIC) [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-3815-625X) [![](assets/img/img.png)](mailto:jboada@ceab.csic.es) ([CEAB-CSIC](https://www.ceab.csic.es/es/))  
-Pablo González-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9250-0920) [![](assets/img/img.png)](mailto:gonzalezgpablo@uniovi.es) ([AIC, Oviedo University ](https://www.aic.uniovi.es))  
+Jordi Boada [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-3815-625X) [![](assets/img/img.png)](mailto:jboada@ceab.csic.es) ([CEAB-CSIC](https://www.ceab.csic.es/es/))  
+Pablo González-González [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0002-9250-0920) [![](assets/img/img.png)](mailto:gonzalezgpablo@uniovi.es) ([Artificial Intelligence Center, Oviedo University ](https://www.aic.uniovi.es))  
   
 **Phd supervisor**  
 Jana Verdura [![ORCID](https://orcid.org/sites/default/files/images/orcid_16x16.png)](https://orcid.org/0000-0003-0662-1206) [![](assets/img/img.png)](mailto:jana.verdura@udg.edu) ([GR MAR, Girona University](https://iea.udg.edu/grmar2022/))  
